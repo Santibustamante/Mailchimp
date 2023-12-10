@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.vertical{
+    position: relative;
+    height: 500px ;
+    width: 300px;
+    vertical-align: top;
+    display: inline-block;
+    width: 64%;
+    box-sizing: border-box;
+}
+
+.logoMono{
+    position: absolute;
+    height: 280px;
+    top: 10%;
+}
+
+
+
+#formulario {
+    position: relative;
+    right: -259px;
+    top: -433px;
+    height: 500px;
+}
+
+.list1 {
+    position: relative;
+    left: 1% ;
+}
+
+.list2 {
+    position: relative;
+    top: -54px;
+    right: -250px;
+
+}
+
+#cajas {
+    width: 600px;
+    height: 30px;
+    border-width: 1px;
+    border-color: rgb(195, 193, 193);
+    border-style: solid;
+}
+
+#show {
+    height: 25px;
+    width: 55px;
+    position: relative;
+    right: -400px;
+    top: -40px;
+}
+
+ul-li::marker {
+    color: rgb(17,154,175);
+}
+
+.terms {
+    position: relative;
+    top: 20px;
+}

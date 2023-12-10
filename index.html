@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailchimp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="vertical">
+        <img class="logoMono" src="https://cdn.iconscout.com/icon/free/png-256/free-mailchimp-5285266-4406703.png" alt="monoLogo">
+    </div>
+    <div id="formulario">
+        <h1><strong>Welcome to Mailchimp</strong></h1>
+        <h4>
+            Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Platform. Already have an account? 
+            <a href="http//www.google.com">Log in</a>
+        </h4>
+        <h4>Email</h4>
+        <input id="cajas" type="email" id="email" size="30" required pattern=".+@example\.com" >
+        <h4>Username</h4>
+        <input type="text" id="cajas" name="nombre" required minlength="2" maxlength="8">
+        <h4>Password</h4>
+
+        <input type="password" id="cajas" name="password" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" title="Must contain a number a special character and both lowercase and uppercase letters">
+        <ul class="list1">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+        </ul>
+        <ul class="list2">
+            <li>One special character</li>
+            <li>8 character minimun</li>
+        </ul>
+        <button type="button">Sign Up</button>
+        <input type="checkbox" name="span" id="span" value="bike">I don't want receive emails about new Mailchimp products, best practices, or special offers.
+    </div>
+    <footer>
+        <h6 id="terms">
+            By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="http//www.google.com">Terms of Use</a> and <a href="http//www.google.com">Privacy Policy.</a>
+        </h6>
+    </footer>
+</body>
+</html>
